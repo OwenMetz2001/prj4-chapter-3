@@ -10,7 +10,7 @@ body {
 #h1nac {
   	color: white;
  	margin-left: 20px;
-	background-image: url(C:/Users/Dhr.%20E.%20Metz/Documents/GitHub/prj4-chapter-3/images/190130-nacbreda.jpg);
+	background-image: url(../images/190130-nacbreda.jpg);
 	margin-right: 20px;
 	font-family: 'Bebas Neue', cursive;
 }
@@ -33,7 +33,7 @@ h2 {
 	height:350px;
 }
 
-#myDIV {
+#myARTICLE {
   border: 5px solid coral;
   animation: mymove 5s infinite;
   padding: 10px 25px 10px 25px
