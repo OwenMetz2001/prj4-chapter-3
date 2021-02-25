@@ -15,10 +15,6 @@ h1 {
 	color: yellow;
 }
 
-.mycontainer {
-	background-color: black;
-}
-
 h2 {
 	color: white;
 }
@@ -26,4 +22,9 @@ h2 {
 .border {
 	border-style: solid;
 	color: black;
+}
+
+.nac {
+	width:350px;
+	height:350px;
 }
