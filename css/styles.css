@@ -1,10 +1,18 @@
+* { margin: 0;}
+
 body {
-  background-color: lightblue;
+	background-image: url(C:/Users/Dhr.%20E.%20Metz/Documents/GitHub/prj4-chapter-3/images/16.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
-h1 {
-  color: yellow;
-  margin-left: 20px;
+#h1nac {
+  	color: white;
+ 	margin-left: 20px;
+	background-image: url(C:/Users/Dhr.%20E.%20Metz/Documents/GitHub/prj4-chapter-3/images/190130-nacbreda.jpg);
+	margin-right: 20px;
+	font-family: 'Bebas Neue', cursive;
 }
 
 .orange {
@@ -19,12 +27,24 @@ h2 {
 	color: white;
 }
 
-.border {
-	border-style: solid;
-	color: black;
-}
 
 .nac {
 	width:350px;
 	height:350px;
 }
+
+#myDIV {
+  border: 5px solid coral;
+  animation: mymove 5s infinite;
+  padding: 10px 25px 10px 25px
+}
+
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+
+ #text {
+ color: white;
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
